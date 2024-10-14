@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(240, 242, 245);
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.content {
+  max-width: 900px;
+  margin: 200px auto;
+  display: flex;
+}
+
+.content h1 {
+  font-weight: 400;
+}
+
+.icon img {
+width: 300px;
+margin-left: -25px;
+}
+
+.login_panel {
+  background-color: #fff;
+  min-width: 395px;
+  min-height: 315px;
+  margin-left: 30px;
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 12%) 0px 2px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login {
+  margin: 15px 20px;
+  padding: 10px;
+  font-size: 17px;
+  border-radius:  6px;
+  border: 1px solid #dddfe2;
+  
+
+}
+
+.btn {
+  background-color: #0866ff;
+  font-size: 25px;
+  color: #fff;
+  margin: 6px 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+}
+
+.forgot {
+  text-align: center;
+  text-decoration: none;
+  color: #0866ff;
+}
+
+.line {
+  background-color: #dddfe2;;
+  height: 1px;
+  margin: 15px 20px;
+
+}
+
+.create_acc {
+  background-color: #42b72a;;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  margin: 15px 100px ;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+
+}
+
+.create-page {
+  text-align: center;
+  /* margin: -170px; */
+
+}
